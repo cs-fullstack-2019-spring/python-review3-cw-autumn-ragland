@@ -1,14 +1,14 @@
-# main function used to call prob1-4
+# main function used to call prob1-3
 def main():
-    prob1()
+    # prob1()
     # prob2()
-    # prob3()
+    prob3()
     # bonus()
 
 # Given a number n, return True if n is in the range 1..10, inclusive and the range is False
 def prob1():
     num = int(input("Enter a number: "))
-    out_of_range = True
+    out_of_range = False
     print(in1to10(num, out_of_range))
 # check if the number is in the range and if the range is True or False
 def in1to10(n, out_of_range):
@@ -44,6 +44,10 @@ def near_ten(number):
         elif (number + 1) % 10 == 0:
             return True
         elif (number + 2) % 10 == 0:
+            return True
+        elif (number - 1) % 10 == 0:
+            return True
+        elif (number - 2) % 10 == 0:
             return True
         else:
             return False
