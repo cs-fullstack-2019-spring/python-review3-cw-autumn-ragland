@@ -1,3 +1,6 @@
+### KEY: 2 POINTS
+### KEY: Wow. Impressive!
+
 # Python Review Misc Topics
 
 ### Problem 1:

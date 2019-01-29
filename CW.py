@@ -37,6 +37,7 @@ def prob2():
 def prob3():
     num = int(input("Enter a positive number: "))
     print(near_ten(num))
+#KEY: REALLY Nice approach here! I could nitpick about just check ing the 2 prior and 2 after and I see no comments atop this func, but I won't I am so impressed! :-P
 def near_ten(number):
     while number > 0:
         if number % 10 == 0:
